@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Ants In My Eyes Johnson",
+    "image": "https://i.imgur.com/qg6PN5o.png",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "Bird Person",
+    "image": "https://i.imgur.com/8z2Lcqz.png",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "Eyehole Man",
+    "image": "https://i.imgur.com/NlWWFY6.png",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "Jerry Smith",
+    "image": "https://i.imgur.com/bMEBIvo.png",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "Morty Smith",
+    "image": "https://i.imgur.com/b64yUFk.png",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "Mr. Meeseeks",
+    "image": "https://i.imgur.com/4r2gKpZ.png",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "Mr. Stealy",
+    "image": "https://i.imgur.com/JAk2cO1.png",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "Rick Sanchez",
+    "image": "https://i.imgur.com/9JDDJxl.png",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "Scary Terry",
+    "image": "https://i.imgur.com/A3INurM.png",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "name": "Schleemy Pants",
+    "image": "https://i.imgur.com/Rv5ypFP.png",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "name": "Summer Smith",
+    "image": "https://i.imgur.com/kdqPNRu.png",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "name": "Tinkles",
+    "image": "https://i.imgur.com/2HjmIbc.png",
+    "clicked": false
+  }
+]
