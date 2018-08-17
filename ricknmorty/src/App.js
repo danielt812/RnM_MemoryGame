@@ -58,7 +58,7 @@ class App extends Component {
         topScore: updatedScore
       })
     }
-    else if (updatedScore === 12) {
+    else if (updatedScore === 20) {
       this.setState({ rightWrong: "You win!" })
     }
   }
