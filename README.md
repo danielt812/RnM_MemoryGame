@@ -11,6 +11,7 @@ Highlights:
   <li>Use of json data to dynamicaly create cards with unique images</li>
   <li>Score tracker, which changes based on state</li>
   <li>onClick functions created within react classes</li>
+  <li>Algorithm used to shuffle all cards after a guess</li>
 </ul>
 
 Link: https://danielt812.github.io/ClickyGame
