@@ -1,3 +1,15 @@
 .jumbotron {
     text-align: center;
+    background: none;
+    color: white;
+}
+
+.display-4 {
+    font-family: rickAndMorty;
+    color: lime;
+    text-shadow: 2px 4px black;
+}
+
+.lead {
+    font-family: handwriting;
 }

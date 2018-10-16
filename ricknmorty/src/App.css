@@ -1,0 +1,16 @@
+@font-face {
+  font-family: rickAndMorty;
+  src: url("./assets/fonts/greenfuz.ttf");
+}
+
+@font-face {
+  font-family: handWriting;
+  src: url("./assets/fonts/handwriting.TTF");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("./assets/images/background.jpg") no-repeat center center fixed;
+  background-size: cover cover;
+}

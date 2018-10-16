@@ -1,6 +1,9 @@
 .nav {
     position: sticky;
     top: 0;
-    background: white;
+    background: #000000;
+    color: #ffffff;
+    font-family: handwriting;
     padding: 1em;
+    z-index: 999;
 }
