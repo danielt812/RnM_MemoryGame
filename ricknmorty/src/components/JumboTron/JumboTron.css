@@ -7,7 +7,7 @@
 .display-4 {
     font-family: rickAndMorty;
     color: lime;
-    text-shadow: 2px 4px black;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
 .lead {
