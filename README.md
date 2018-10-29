@@ -1,9 +1,9 @@
 # Rick and Morty themed memory game
 
-Basic front-end memory game using React.js 
+Front-end memory game using React.js 
 <br>
 <br>
-Technologies used: React HTML CSS JavaScript jQuery BootStrap 
+Technologies used: REACT HTML CSS JavaScript BootStrap GH-Pages 
 <br>
 <br>
 Highlights:
