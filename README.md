@@ -14,4 +14,4 @@ Highlights:
   <li>Algorithm used to shuffle all cards after a guess</li>
 </ul>
 
-Link: https://danielt812.github.io/ClickyGame
+Link: https://danielt812.github.io/RnM_MemoryGame/
