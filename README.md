@@ -8,7 +8,7 @@ Technologies used: REACT HTML CSS JavaScript BootStrap GH-Pages
 <br>
 Highlights:
 <ul>
-  <li>Use of json data to dynamicaly create cards with unique images</li>
+  <li>Use of json data to dynamicaly generate cards with unique images and id's</li>
   <li>Score tracker, which changes based on state</li>
   <li>Event handlers created within react classes</li>
   <li>Algorithm used to shuffle all cards after a guess</li>
