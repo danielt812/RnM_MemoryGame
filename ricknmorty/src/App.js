@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import "./App.css";
-import NavBar from "./components/Nav/Nav";
-import JumboTron from "./components/JumboTron/JumboTron";
-import Card from "./components/Card/Card";
-import Wrapper from "./components/Wrapper";
-import characters from "./characters.json";
+import React, { Component } from 'react';
+import './App.css';
+import NavBar from './components/Nav/Nav';
+import JumboTron from './components/JumboTron/JumboTron';
+import Card from './components/Card/Card';
+import Wrapper from './components/Wrapper';
+import characters from './characters.json';
 
 function shuffleCharacters(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -20,7 +20,7 @@ class App extends Component {
     characters,
     score: 0,
     topScore: 0,
-    rightWrong: "",
+    rightWrong: '',
     clicked: []
   };
 
@@ -47,7 +47,7 @@ class App extends Component {
     //Update State to show score and mark if card is right or wrong.
     this.setState({
       score: updatedScore,
-      rightWrong: "Correct"
+      rightWrong: 'You Guessed Correct!'
     });
     this.handleShuffle();
     //If score is greater than high score. Update state for top score.
@@ -56,7 +56,7 @@ class App extends Component {
         topScore: updatedScore
       });
     } else if (updatedScore === 20) {
-      this.setState({ rightWrong: "You win!" });
+      this.setState({ rightWrong: 'You win!' });
     }
   };
 
@@ -66,7 +66,7 @@ class App extends Component {
     this.setState({
       score: 0,
       topScore: this.state.topScore,
-      rightWrong: "Wrong",
+      rightWrong: 'You Guessed Wrong!',
       clicked: []
     });
     this.handleShuffle();
