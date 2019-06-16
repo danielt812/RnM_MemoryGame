@@ -24,14 +24,14 @@ class App extends Component {
     clicked: []
   };
 
-  //Click function from Card component
+  // Click function from Card component
   handleClick = id => {
     console.log(id);
-    //If this Card does not exist in clicked array (this.state.clicked)...
+    // If this Card does not exist in clicked array (this.state.clicked)...
     if (this.state.clicked.indexOf(id) === -1) {
-      //Run handleIncrement function
+      // Run handleIncrement function
       this.handleIncrement();
-      //Change state to push id into clicked array
+      // Change state to push id into clicked array
       this.setState({
         clicked: this.state.clicked.concat(id)
       });
@@ -41,28 +41,29 @@ class App extends Component {
     }
   };
 
-  //This function will handle correct guesses
+  // This function will handle correct guesses
   handleIncrement = () => {
     const updatedScore = this.state.score + 1;
-    //Update State to show score and mark if card is right or wrong.
+    // Update State to show score and mark if card is right or wrong.
     this.setState({
       score: updatedScore,
       rightWrong: 'You Guessed Correct!'
     });
     this.handleShuffle();
-    //If score is greater than high score. Update state for top score.
+    // If score is greater than high score. Update state for top score.
     if (updatedScore >= this.state.topScore) {
       this.setState({
         topScore: updatedScore
       });
-    } else if (updatedScore === 20) {
-      this.setState({ rightWrong: 'You win!' });
+    }
+    if (updatedScore === characters.length) {
+      this.setState({ rightWrong: 'You Win!' });
     }
   };
 
-  //This function will handle incorrect guesses
+  // This function will handle incorrect guesses
   handleReset = () => {
-    //Set all state values except for top score back to original values
+    // Set all state values except for top score back to original values
     this.setState({
       score: 0,
       topScore: this.state.topScore,
