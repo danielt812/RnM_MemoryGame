@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/RnM_MemoryGame/static/css/main.f1d90cdd.css",
+    "main.js": "/RnM_MemoryGame/static/js/main.5fa00626.js",
+    "static/media/background.jpg": "/RnM_MemoryGame/static/media/background.68475ce5ef6e0460b9e7.jpg",
+    "static/media/getSchwifty.ttf": "/RnM_MemoryGame/static/media/getSchwifty.c3d1dfc692e3547fed16.ttf",
+    "static/media/handwriting.TTF": "/RnM_MemoryGame/static/media/handwriting.c159a5776ed44ab1be5b.TTF",
+    "static/media/morty.ttf": "/RnM_MemoryGame/static/media/morty.a5bad8e90ebe8ef35945.ttf",
+    "static/media/rick.ttf": "/RnM_MemoryGame/static/media/rick.91ba58bff882007009b4.ttf",
+    "index.html": "/RnM_MemoryGame/index.html",
+    "main.f1d90cdd.css.map": "/RnM_MemoryGame/static/css/main.f1d90cdd.css.map",
+    "main.5fa00626.js.map": "/RnM_MemoryGame/static/js/main.5fa00626.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1d90cdd.css",
+    "static/js/main.5fa00626.js"
+  ]
+}
