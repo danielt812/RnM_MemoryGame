@@ -1,1 +1,2 @@
-export { default } from './JumboTron'
+export { default } from "./JumboTron";
+
